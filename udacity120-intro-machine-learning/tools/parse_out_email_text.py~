@@ -38,7 +38,7 @@ def parseOutText(f):
         stemmer = SnowballStemmer("english")
         for each in text_lst:
             root = stemmer.stem(each)
-            words += root + ' '        
+            words += root + '         
 
 
 
